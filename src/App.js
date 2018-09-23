@@ -5,18 +5,18 @@ import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
-import resumeData from './components/resume/resumeData';
+import portfolioData from './portfolioData';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData}/>
-        <About />
-        <Resume />
-        <Portfolio />
-        <Contact />
-        <Footer />
+        <Header portfolioData={portfolioData}/>
+        <About portfolioData={portfolioData}/>
+        <Resume portfolioData={portfolioData}/>
+        <Portfolio portfolioData={portfolioData}/>
+        <Contact portfolioData={portfolioData}/>
+        <Footer portfolioData={portfolioData}/>
       </div>
     );
   }

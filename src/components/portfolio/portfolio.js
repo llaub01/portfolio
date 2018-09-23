@@ -4,7 +4,7 @@ export default class Portfolio extends Component {
     return (
     <React.Fragment>
 
-        <section id="portfolio">
+      <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
@@ -24,6 +24,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
@@ -124,9 +125,9 @@ export default class Portfolio extends Component {
               </div>  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
-          {/* Modal Popup
-	      --------------------------------------------------------------- */}
-     /*     <div id="modal-01" className="popup-modal mfp-hide">
+          {/* Modal Popup--------------------------------------------------------------- */}
+         
+         <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
             <div className="description-box">
               <h4>Coffee Cup</h4>
