@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Contact extends Component {
   render() {
-
+    let portfolioData = this.props.portfolioData;
     return (
       <React.Fragment>
         
@@ -61,15 +61,14 @@ export default class Contact extends Component {
             
             <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+              <h4>Address</h4>
               <p className="address">
-                Jonathan Doe<br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US<br />
-                <span>(123) 456-7890</span>
+                <span>{portfolioData.name}</span><br/>
+                <span>{portfolioData.address.street}<br/>{portfolioData.address.city}</span><br/>
               </p>
             </div>
             
+            {/*           
             <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
@@ -93,6 +92,8 @@ export default class Contact extends Component {
               
               </ul>
             </div>
+            */}
+
           </aside>
         </div>
       </section>

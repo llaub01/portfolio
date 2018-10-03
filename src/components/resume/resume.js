@@ -77,6 +77,7 @@ export default class Resume extends Component {
               voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt.
             </p>
+            {/*}
             <div className="bars">
               <ul className="skills">
                 <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
@@ -87,6 +88,7 @@ export default class Resume extends Component {
                 <li><span className="bar-expand jquery" /><em>jQuery</em></li>
               </ul>
             </div>{/* end skill-bars */}
+          */}
           </div> {/* main-col end */}
         </div> {/* End skills */}
         </section>
