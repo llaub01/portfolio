@@ -3,28 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel": "^6.23.0",
+    "forever": "^0.14.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-scripts": "^2.1.3"
+    "react-scripts": "^5.0.1",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "forever": "forever start -a --uuid heylonne-website src/index.js"
   },
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/llaub01/portfolio.git"
+    "url": ""
   },
-  "author": "",
+  "author": "Lonnie Laub",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/llaub01/portfolio/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/llaub01/portfolio#readme",
+  "homepage": "",
   "browserslist": [
     ">0.2%",
     "not dead",

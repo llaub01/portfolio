@@ -14,13 +14,13 @@ export default class Header extends Component {
 	            <li><a className="smoothscroll" href="#about">About</a></li>
 	            <li><a className="smoothscroll" href="#resume">Resume</a></li>
 	            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
-	            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+	            {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
 	          </ul> {/* end #nav */}
 	        </nav> {/* end #nav-wrap */}
 	        <div className="row banner">
 	            <div className="banner-text">
 	               <h1 className="responsive-headline">I'm {portfolioData.name}.</h1>
-	               <h3>I am a {portfolioData.role}.{portfolioData.roleDescription}
+	               <h3>I am {portfolioData.role}.{portfolioData.roleDescription}
 	               </h3>
 	               <hr/>
 	            <ul className="social">
