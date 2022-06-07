@@ -13,7 +13,7 @@ export default class Header extends Component {
 	            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
 	            <li><a className="smoothscroll" href="#about">About</a></li>
 	            <li><a className="smoothscroll" href="#resume">Resume</a></li>
-	            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+	            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
 	            <li><a className="smoothscroll" href="#contact">Contact</a></li>
 	          </ul> {/* end #nav */}
 	        </nav> {/* end #nav-wrap */}
@@ -26,7 +26,6 @@ export default class Header extends Component {
 	            <ul className="social">
 	              <li><a href={portfolioData.facebook}><i className="fa fa-facebook" /></a></li>
 	              <li><a href={portfolioData.twitter}><i className="fa fa-twitter" /></a></li>
-	              <li><a href={portfolioData.googleplus}><i className="fa fa-google-plus" /></a></li>
 	              <li><a href={portfolioData.linkedin}><i className="fa fa-linkedin" /></a></li>
 	              <li><a href={portfolioData.instagram}><i className="fa fa-instagram" /></a></li>
 	            </ul>

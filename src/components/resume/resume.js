@@ -33,6 +33,13 @@ export default class Resume extends Component {
                 <p>{portfolioData.education3.description}</p>
               </div>
             </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>{portfolioData.education4.name}</h3>
+                <p className="info">{portfolioData.education4.degree}<span>•</span> <em className="date">{portfolioData.education4.grad}</em></p>
+                <p>{portfolioData.education4.description}</p>
+              </div>
+            </div> {/* item end */}
           </div> {/* main-col end */}
         </div> {/* End Education */}
         {/* Work
@@ -63,35 +70,77 @@ export default class Resume extends Component {
                 <p>{portfolioData.work3.description}</p>
               </div>
             </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>{portfolioData.work4.name}</h3>
+                <p className="info">{portfolioData.work4.title}<span>•</span> <em className="date">{portfolioData.work4.date}</em></p>
+                <p>{portfolioData.work4.description}</p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>{portfolioData.work5.name}</h3>
+                <p className="info">{portfolioData.work5.title}<span>•</span> <em className="date">{portfolioData.work5.date}</em></p>
+                <p>{portfolioData.work5.description}</p>
+              </div>
+            </div> {/* item end */}
           </div> {/* main-col end */}
         </div> {/* End Work */}
-        {/* Skills
-      ----------------------------------------------- */}
+
+        {/* Skills ----------------------------------------------- */}
         <div className="row skill">
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
           </div>
-          <div className="nine columns main-col">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
-            </p>
-            {/*}
-            <div className="bars">
-              <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                <li><span className="bar-expand css" /><em>Wordpress</em></li>
-                <li><span className="bar-expand wordpress" /><em>CSS</em></li>
-                <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-              </ul>
-            </div>{/* end skill-bars */}
-          */}
-          </div> {/* main-col end */}
-        </div> {/* End skills */}
-        </section>
+
+          <div className="three columns">
+            <ul>
+              <h3>{portfolioData.skills.leadership[0]}</h3>
+              <li>{portfolioData.skills.leadership[1]}</li>
+              <li>{portfolioData.skills.leadership[2]}</li>
+              <li>{portfolioData.skills.leadership[3]}</li>
+              <li>{portfolioData.skills.leadership[4]}</li>
+              <li>{portfolioData.skills.leadership[5]}</li>
+              <li>{portfolioData.skills.leadership[6]}</li>
+              <li>{portfolioData.skills.leadership[7]}</li>
+            </ul>
+          </div>
+
+          <div className="three columns">
+            <ul>
+              <h3>{portfolioData.skills.webdev[0]}</h3>
+              <li>{portfolioData.skills.webdev[1]}</li>
+              <li>{portfolioData.skills.webdev[2]}</li>
+              <li>{portfolioData.skills.webdev[3]}</li>
+              <li>{portfolioData.skills.webdev[4]}</li>
+              <li>{portfolioData.skills.webdev[5]}</li>
+              <li>{portfolioData.skills.webdev[6]}</li>
+              <li>{portfolioData.skills.webdev[7]}</li>
+              <li>{portfolioData.skills.webdev[8]}</li>
+              <li>{portfolioData.skills.webdev[9]}</li>
+              <li>{portfolioData.skills.webdev[10]}</li>
+              <li>{portfolioData.skills.webdev[11]}</li>
+              <li>{portfolioData.skills.webdev[12]}</li>
+              <li>{portfolioData.skills.webdev[13]}</li>
+              <li>{portfolioData.skills.webdev[14]}</li>
+            </ul>
+          </div>
+
+          <div className="three columns">
+            <ul>
+              <h3>{portfolioData.skills.software[0]}</h3>
+              <li>{portfolioData.skills.software[1]}</li>
+              <li>{portfolioData.skills.software[2]}</li>
+              <li>{portfolioData.skills.software[3]}</li>
+              <li>{portfolioData.skills.software[4]}</li>
+              <li>{portfolioData.skills.software[5]}</li>
+              <li>{portfolioData.skills.software[6]}</li>
+              <li>{portfolioData.skills.software[7]}</li>
+            </ul>
+          </div>
+        </div> {/* end skill-bars */}
+
+      </section>
     </React.Fragment>
     );
   }

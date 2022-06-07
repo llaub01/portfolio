@@ -13,14 +13,12 @@ export default class Footer extends Component {
               <ul class="social-links">
                 <li><a href={portfolioData.facebook}><i className="fa fa-facebook" /></a></li>
                 <li><a href={portfolioData.twitter}><i className="fa fa-twitter" /></a></li>
-                <li><a href={portfolioData.googleplus}><i className="fa fa-google-plus" /></a></li>
                 <li><a href={portfolioData.linkedin}><i className="fa fa-linkedin" /></a></li>
                 <li><a href={portfolioData.instagram}><i className="fa fa-instagram" /></a></li>
               </ul>
 
               <ul class="copyright">
-                 <li>&copy; Copyright 2018 Lonnie Laub</li>
-                 <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+                 <li>&copy; Copyright 2022 Lonnie Laub</li>
               </ul>
 
            </div>

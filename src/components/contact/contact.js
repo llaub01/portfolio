@@ -12,7 +12,7 @@ export default class Contact extends Component {
             </div>
         
             <div className="ten columns">
-              <p className="lead">Want to get in contact with me? Send a message using this fun form!
+              <p className="lead">Want to get in contact with me? Send a message!
               </p>
             </div>
           </div>
