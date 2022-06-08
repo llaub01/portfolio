@@ -1,23 +1,23 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
-    "babel": "^6.23.0",
-    "forever": "^0.14.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "babel-preset-react-app": "^10.0.1",
+    "nodemon": "^2.0.16",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-scripts": "^5.0.1",
-    "yarn": "^1.22.18"
+    "serve": "^13.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "forever": "forever start -a --uuid heylonne-website src/index.js"
+    "eject": "react-scripts eject"
   },
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": ""
@@ -28,10 +28,20 @@
     "url": ""
   },
   "homepage": "",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@webpack-cli/generators": "^1.1.0",
+    "webpack": "^5.73.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
