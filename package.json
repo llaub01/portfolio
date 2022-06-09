@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build -l 5050",
+    "prod": "pm2 serve build 5050 --spa"
   },
   "description": "",
   "main": "src/index.js",
